@@ -11,7 +11,7 @@ import java.lang;
  * @author susan
  */
 public class Area extends GeometricBasic{
-private int geoAlt=0 ;
+private int geoAlt ;
 
  public int areaTrap(int base, int lad2, int alh) {
         area = (((base+lad2) * alh)/2);
@@ -22,6 +22,7 @@ private int geoAlt=0 ;
          per = (base*alh*lad1*lad2);
         return per;
     }
+//
 
 /*public void figuR (){
 if (geoAlt==3){
@@ -41,12 +42,8 @@ System.out.println("Es una Figura?");
         return lados;
     }
 
-    public int getGeoAlt() {
+    public int getGeoAlt()  {
         return geoAlt;
     }
-
-
-
- 
 
 }

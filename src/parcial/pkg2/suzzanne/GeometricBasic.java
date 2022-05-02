@@ -9,7 +9,7 @@ import java.lang;
 
 /**
  *
- * @author Suzzanne Acevedo
+ * @author Suzzanne 
  */
 public class GeometricBasic {
     public int area;

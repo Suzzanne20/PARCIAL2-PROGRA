@@ -9,7 +9,7 @@ import java.lang;
 
 /**
  *
- * @author susan
+ * @author Suzzanne Acevedo
  */
 public class GeometricBasic {
     public int area;
@@ -25,7 +25,7 @@ public class GeometricBasic {
     public void setArea(int area) {
         this.area = area;
     }
-
+ 
     public void setPer(int per) {
         this.per = per;
     }
